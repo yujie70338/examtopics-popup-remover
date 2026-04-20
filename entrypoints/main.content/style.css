@@ -1,0 +1,10 @@
+/* Phase 1: Pre-emptive CSS suppression — injected before any page JS runs.
+ * Even if the element does not exist yet, the moment it is created with this
+ * ID it will be invisible, preventing any visual flash before the
+ * MutationObserver callback fires and removes it from the DOM entirely.
+ */
+#notRemoverPopup {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}

@@ -1,0 +1,55 @@
+# WXT 和構建相關
+# 自動生成的類型定義（勿手動編輯）
+.wxt/
+# 構建輸出目錄
+.output/
+
+# 依賴和包管理
+# npm/pnpm 依賴（pnpm-lock.yaml 應保留以鎖定版本）
+node_modules/
+
+# 擴展分發文件
+*.crx
+*.xpi
+*.zip
+
+# 作業系統文件
+.DS_Store
+.DS_Store?
+# macOS 垃圾檔案
+.Trash-*
+# Windows 縮圖緩存
+Thumbs.db
+# 編輯器交換/備份文件
+*.swp
+*.swo
+*~
+
+# IDE 和編輯器配置
+.idea/
+.vscode/
+*.code-workspace
+.sublime-project
+.sublime-workspace
+# IntelliJ IDEA 模塊文件
+*.iml
+.gradle/
+
+# 環境和日誌文件
+# 環境變量（可能包含敏感信息）
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 臨時文件和緩存
+.cache/
+.tmp/
+temp/
+# 測試覆蓋率報告
+coverage/
+.coverage

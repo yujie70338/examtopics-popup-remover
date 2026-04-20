@@ -1,0 +1,19 @@
+{
+  "name": "examtopics-popup-remover",
+  "version": "1.0.0",
+  "description": "Automatically removes the delayed popup on ExamTopics discussion pages",
+  "private": true,
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "wxt": "^0.20.0"
+  }
+}
